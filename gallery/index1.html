@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CTRI Rajahmundry</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+        <meta name="description" content="Responsive Image Gallery with jQuery" />
+        <meta name="keywords" content="jquery, carousel, image gallery, slider, responsive, flexible, fluid, resize, css3" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+		<noscript>
+			<style>
+				.es-carousel ul{
+					display:block;
+				}
+			</style>
+		</noscript>
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+    </head>
+    <body>
+		<div class="container">
+			    <a href="../index.php">CTRI HOME<br>
+                    <img class="simple" alt="image is loading" src="images/home.png">
+                    </a>
+		
+			
+			<div class="content">
+				
+				<div id="rg-gallery" class="rg-gallery">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+<li><a href='#'><img src='images/thumbs/yoga.jpg' data-large='images/yoga.jpg' alt='yoga' /></a></li>
+<li><a href='#'><img src='images/thumbs/train.jpg' data-large='images/train.jpg' alt='train' /></a></li>
+<li><a href='#'><img src='images/thumbs/krishi1.jpg' data-large='images/krishi1.jpg' alt='krishi1' /></a></li>
+<li><a href='#'><img src='images/thumbs/krishi2.jpg' data-large='images/krishi2.jpg' alt='krishi2' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/cash.jpg' data-large='images/cash.jpg' alt='cash' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/w1.jpg' data-large='images/w1.jpg' alt='w1' /></a></li>
+<li><a href='#'><img src='images/thumbs/w2.jpg' data-large='images/w2.jpg' alt='w2' /></a></li>
+<li><a href='#'><img src='images/thumbs/w3.jpg' data-large='images/w3.jpg' alt='w3' /></a></li>
+<li><a href='#'><img src='images/thumbs/pro1.jpg' data-large='images/pro1.jpg' alt='pro1' /></a></li>
+<li><a href='#'><img src='images/thumbs/pro2.jpg' data-large='images/pro2.jpg' alt='pro2' /></a></li>
+<li><a href='#'><img src='images/thumbs/soil.jpg' data-large='images/soil.jpg' alt='soil' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/ag1.jpg' data-large='images/ag1.jpg' alt='ag1' /></a></li>
+<li><a href='#'><img src='images/thumbs/ag2.jpg' data-large='images/ag2.jpg' alt='ag2' /></a></li>
+<li><a href='#'><img src='images/thumbs/vig1.jpg' data-large='images/vig1.jpg' alt='vig1' /></a></li>
+<li><a href='#'><img src='images/thumbs/swa1.jpg' data-large='images/swa1.jpg' alt='swa1' /></a></li>
+<li><a href='#'><img src='images/thumbs/swa2.jpg' data-large='images/swa2.jpg' alt='swa2' /></a></li>
+<li><a href='#'><img src='images/thumbs/swa3.jpg' data-large='images/swa3.jpg' alt='swa3' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/imc2.jpg' data-large='images/imc2.jpg' alt='imc2' /></a></li>
+<li><a href='#'><img src='images/thumbs/ddg1.jpg' data-large='images/ddg1.jpg' alt='ddg1' /></a></li>
+<li><a href='#'><img src='images/thumbs/ddg2.jpg' data-large='images/ddg2.jpg' alt='ddg2' /></a></li>
+<li><a href='#'><img src='images/thumbs/ddg3.jpg' data-large='images/ddg3.jpg' alt='ddg3' /></a></li>
+<li><a href='#'><img src='images/thumbs/ddg4.jpg' data-large='images/ddg4.jpg' alt='ddg4' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/ainpt.jpg' data-large='images/ainpt.jpg' alt='ainpt' /></a></li>
+<li><a href='#'><img src='images/thumbs/ainpt1.jpg' data-large='images/ainpt1.jpg' alt='ainpt1' /></a></li>
+<li><a href='#'><img src='images/thumbs/ainpt2.jpg' data-large='images/ainpt2.jpg' alt='ainpt2' /></a></li>
+<li><a href='#'><img src='images/thumbs/ainpt3.jpg' data-large='images/ainpt3.jpg' alt='ainpt3' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/dg1.jpg' data-large='images/dg1.jpg' alt='dg1' /></a></li>
+<li><a href='#'><img src='images/thumbs/dg2.jpg' data-large='images/dg2.jpg' alt='dg2' /></a></li>
+<li><a href='#'><img src='images/thumbs/dg3.jpg' data-large='images/dg3.jpg' alt='dg3' /></a></li>
+<li><a href='#'><img src='images/thumbs/dg4.jpg' data-large='images/dg4.jpg' alt='dg4' /></a></li>
+<li><a href='#'><img src='images/thumbs/dg5.jpg' data-large='images/dg5.jpg' alt='dg5' /></a></li>
+<li><a href='#'><img src='images/thumbs/sw1.jpg' data-large='images/sw1.jpg' alt='sw1' /></a></li>
+<li><a href='#'><img src='images/thumbs/sw2.jpg' data-large='images/sw2.jpg' alt='sw2' /></a></li>
+<li><a href='#'><img src='images/thumbs/sw3.jpg' data-large='images/sw3.jpg' alt='sw3' /></a></li>
+<li><a href='#'><img src='images/thumbs/sw4.jpg' data-large='images/sw4.jpg' alt='sw4' /></a></li>
+<li><a href='#'><img src='images/thumbs/hi1.jpg' data-large='images/hi1.jpg' alt='hi1' /></a></li>
+<li><a href='#'><img src='images/thumbs/hi2.jpg' data-large='images/hi2.jpg' alt='hi2' /></a></li>
+<li><a href='#'><img src='images/thumbs/hi3.jpg' data-large='images/hi3.jpg' alt='hi3' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/h1.jpg' data-large='images/h1.jpg' alt='h1' /></a></li>
+<li><a href='#'><img src='images/thumbs/h2.jpg' data-large='images/h2.jpg' alt='h2' /></a></li>
+<li><a href='#'><img src='images/thumbs/h3.jpg' data-large='images/h3.jpg' alt='h3' /></a></li>
+<li><a href='#'><img src='images/thumbs/h4.jpg' data-large='images/h4.jpg' alt='h4' /></a></li>
+<li><a href='#'><img src='images/thumbs/irc1.jpg' data-large='images/irc1.jpg' alt='irc1' /></a></li>
+<li><a href='#'><img src='images/thumbs/irc2.jpg' data-large='images/irc2.jpg' alt='irc2' /></a></li>
+<li><a href='#'><img src='images/thumbs/irc3.jpg' data-large='images/irc3.jpg' alt='irc3' /></a></li>
+<li><a href='#'><img src='images/thumbs/irc4.jpg' data-large='images/irc4.jpg' alt='irc4' /></a></li>
+<li><a href='#'><img src='images/thumbs/irc5.jpg' data-large='images/irc5.jpg' alt='irc5' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/leaf1.jpg' data-large='images/leaf1.jpg' alt='leaf1' /></a></li>				
+<li><a href='#'><img src='images/thumbs/leaf2.jpg' data-large='images/leaf2.jpg' alt='leaf2' /></a></li>
+<li><a href='#'><img src='images/thumbs/leaf3.jpg' data-large='images/leaf3.jpg' alt='leaf2' /></a></li>
+<li><a href='#'><img src='images/thumbs/ganesh.jpg' data-large='images/ganesh.jpg' alt='ganesh' /></a></li>
+
+<li><a href='#'><img src='images/thumbs/rac1.jpg' data-large='images/rac1.jpg' alt='rac1' /></a></li>	
+<li><a href='#'><img src='images/thumbs/rac2.jpg' data-large='images/rac2.jpg' alt='rac2' /></a></li>	
+<li><a href='#'><img src='images/thumbs/rac3.jpg' data-large='images/rac3.jpg' alt='rac3' /></a></li>	
+<li><a href='#'><img src='images/thumbs/rac4.jpg' data-large='images/rac4.jpg' alt='rac4' /></a></li>	
+
+
+
+<li><a href='#'><img src='images/thumbs/k1.jpg' data-large='images/k1.jpg' alt='k1' /></a></li>
+<li><a href='#'><img src='images/thumbs/k2.jpg' data-large='images/k2.jpg' alt='k2' /></a></li>
+<li><a href='#'><img src='images/thumbs/k3.jpg' data-large='images/k3.jpg' alt='k3' /></a></li>
+</ul>
+
+	
+					
+									
+								
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+				</div><!-- content -->
+		</div><!-- container -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+		<script type="text/javascript" src="js/gallery.js"></script>
+    </body>
+</html>

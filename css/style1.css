@@ -1,0 +1,201 @@
+*{
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+.clear{
+	clear:both;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	height:0px;
+}
+body:before 
+{ 
+   content: "";
+   position: fixed;
+   top: -20px;
+   left: 0;
+   width: 100%;
+   height: 20px;
+   z-index: 100;
+   box-shadow: 0px 0px 20px rgba(0,0,0,1);
+   }
+
+body {
+	background:#000 url(../images/bg.jpg) top center fixed no-repeat;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px; 
+	color:#024c68;
+
+}
+ hr{
+	 outline-color:#03F; 
+	 width:80%;
+	 }
+ 
+h1{ 
+ font-size:18px; 
+ color:#00CC00;
+ text-transform:uppercase;
+ }
+ 
+h2{ 
+ font-size:16px; 
+ color:#990000;
+ text-align:center;
+ }
+ 
+h3{ 
+ font-size:14px; 
+ color:#993300;
+ }
+ a{
+	text-decoration:none; 
+ 	color:#000;
+	font-size:12px; 
+ }
+ a:hover{
+	 text-decoration:none; 
+	 color:#03C;
+	 font-size:12px; 
+	 }
+ul{
+	list-style:none;
+}
+.container{
+	background:none;
+	box-shadow:0px 0px 20px rgba(0,0,0,1);
+	margin:0 auto;
+	width:1000px;
+	position:relative;
+}
+header{
+	height:200px;
+}
+
+/* ------------------------------------------------------    content pan----------------------------------------------------*/
+.content{
+
+	background:#f6f6f6;
+	padding:10px;
+
+}
+.content ol{padding-left:50px;}
+.content li{ font-size:14px; color:#000;padding-left:10px;
+padding-right:10px; padding-bottom:15px; text-align:justify}
+.content ul{padding-left:50px;}
+.content h1{font-size:16px; color:#0d320e; }
+.content h2{font-size:16px; color:#0d320e;}
+.content h3{font-size:14px; color:#0d320e;}
+.content h4{padding-bottom:4px;padding-left:10px;padding-right:10px;color:#03C; font-weight:bold}
+
+.content p{ font-size:14px; color:#000; line-height:1.3em;text-align:justify;padding:5px;}
+.content input{border:#000 1px solid;
+	margin:0px;
+	width:150px;
+	}
+.content select{border:#000 1px solid;margin:0px;}
+
+
+.content a{text-decoration:none; color:#0c0;}
+.content a:hover{text-decoration:none; color:#030;}
+.content table{margin:0 auto; padding-left:10px}
+#onborder td{border:#000 1px solid;}
+#noborder{border:0}
+.content textarea{border:#000 1px solid;
+
+	}
+.table {text-align:left}
+/*---------------------------------------------registeration form----------------------------------------------*/
+.inp-form	{
+	background: url(../images/form_inp.gif) no-repeat;
+	border: none;
+	color: #393939;
+	height: 25px;
+	padding: 6px 6px 0 6px;
+	width: 186px;
+	}
+
+
+.styledselect	{
+	border: 1px solid #acacac;
+	margin-right: 3px;
+	padding: 3px;
+	width: 64px;
+	}
+	
+.form-submit	{
+	background: url(../images/form_submit.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	display: block;
+	height: 30px;
+	margin: 0 4px 0 0;
+	padding: 0;
+	text-indent: -3000px;
+	width: 80px;
+	}
+
+#news{
+	background:#030;
+	color:#FFF;
+}
+.main{
+	
+	float:left;
+	width:700px;
+	position:relative;
+	
+	
+}
+aside{
+	
+	float:right;
+	width:280px;
+	position:relative;
+	
+}
+
+/* ------------------------------------------------------  footer----------------------------------------------------*/
+footer{
+	background:#030;
+    padding:5px;
+	height:15px;
+	}
+
+footer p{	
+	color:#FFF; letter-spacing:0; 
+	line-height:15px}
+	
+footer a{color:#FFF;}
+
+footer a:hover{color:#A2F248;}
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+
+.leftpan{
+	
+	float:left;
+	width:550px;
+	margin:8px 2px 2px 8px;
+	position:relative;
+	
+	
+}
+
+.rightpan{
+	
+	float:right;
+	width:380px;
+	position:relative;
+	margin:8px 8px 2px 2px ;
+	font-size:14px;
+	
+}

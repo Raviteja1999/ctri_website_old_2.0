@@ -1,0 +1,403 @@
+*{
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+hr{
+
+background-color: #333333;
+height: 2px;
+width:200px;}
+
+.clear{
+	clear:both;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	height:0px;
+}
+body:before 
+{ 
+   content: "";
+   position: fixed;
+   top: -20px;
+   left: 0;
+   width: 100%;
+   height: 20px;
+   z-index: 100;
+   box-shadow: 0px 0px 20px rgba(0,0,0,1);
+   }
+
+body {	/*background:#000 url(../images/bg.jpg) top center fixed no-repeat;*/
+		background:url(../images/bbackground.png) repeat top left;
+		/*background:#9efea0;*/
+     font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	color:#024c68;
+    /*height:auto;*/
+    overflow-x: hidden;
+}
+ hr{
+	 outline-color:#03F; 
+	 width:100%;
+	 }
+ 
+h1{ 
+ font-size:18px; 
+ color:#00CC00;
+ text-transform:uppercase;
+ }
+ 
+h2{ 
+ font-size:16px; 
+ color:#990000;
+ }
+ 
+h3{ 
+ font-size:14px; 
+ color:#993300;
+ }
+ a{
+	text-decoration:none; 
+ 	color:#000;
+	font-size:12px; 
+ }
+ a:hover{
+	 text-decoration:none; 
+	 color:#03C;
+	 font-size:12px; 
+	 }
+ul{
+	list-style:none;
+}
+.container{
+	
+	box-shadow:0px 0px 20px rgba(0,0,0,1);
+	margin:0 auto;
+	width:100%px;
+	position:relative;
+}
+header{
+	height:125px;
+}
+
+/* ------------------------------------------------------    content pan----------------------------------------------------*/
+.content{
+
+	background:url(../images/background.png) repeat top left;
+	padding:10px;
+	position:relative;
+}
+
+.main{
+	
+	float:left;
+	width:52%;
+	position:relative;
+	
+	
+}
+.about{
+	margin-left: 50px;
+       float:left;
+	   width:20%;
+}
+.aside{
+	
+	float:right;
+	position:relative;
+	margin-top:0px;
+	width:20%;
+}
+
+.aside div h3 {
+background: #669933;
+height:25px;
+padding-top:2px;
+text-align:center;
+color:#ffffff;
+}
+
+.about div h3 {
+background: #669933;
+height:25px;
+padding-top:2px;
+text-align:center;
+color:#ffffff;
+}
+
+.moduletable ul {
+	padding:10px 0px 10px 0px;
+	list-style:none;
+	
+	margin:0px;
+}
+
+.moduletable a:link, a:visited {
+	color: #003366;
+	text-decoration:none;
+}
+
+.moduletable a:hover {
+	color: #579EB4;
+}
+
+
+.moduletable ul li {
+	padding:0px 0px 0px 10px;
+	margin:0px;
+	list-style:none;
+	background:url(../images/menu_arrow.png) top left no-repeat;
+	line-height:18px;
+}
+
+.sidenav {
+/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#005D02', endColorstr='#43800');*/
+		background: linear-gradient(to bottom,  rgba(0,93,2,1) 0%,rgba(4,56,0,1) 100%);
+	/*	-moz-box-shadow: 0 -1px rgba(255,255,255,.3);
+		-webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.3);*/
+		box-shadow: 0 -1px 0 rgba(255,255,255,.3);	
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out; 
+		margin: 10px 10px 10px 10px;
+font-size:24px;
+font-weight:500;
+color:#ffffff;	
+}
+
+.sidenav span {
+height:30px;
+padding-top:2px;
+text-align:center;
+color:#ffffff;
+}
+
+.moduletable form ul li {
+	list-style:none;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#005D02', endColorstr='#43800');*/
+		background: linear-gradient(to bottom,  rgba(0,93,2,1) 0%,rgba(4,56,0,1) 100%);
+		-moz-box-shadow: 0 -1px rgba(255,255,255,.3);
+		-webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.3);
+		box-shadow: 0 -1px 0 rgba(255,255,255,.3);	
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out; 
+	/*background:url(../images/menu_arrow.png) top left no-repeat;*/
+	
+}
+.aside div.moduletable_menu, .aside div.moduletable, .aside div.moduletable_text{
+	margin: 2px 0px 10px 0px;
+	padding-left: 0px;
+	width: 90%;
+    border:2px solid #a1a1a1;
+    background:#ffffff;	
+	text-align:center;
+	}
+.about div.moduletable_menu, .about div.moduletable, .about div.moduletable_text{
+	margin: 2px 0px 10px 0px;
+	padding-left: 0px;
+	width: 80%;
+    border:2px solid #a1a1a1;
+    background:#ffffff;	
+	text-align:center;
+	}	
+.content ol{padding-left:50px;}
+.content li{ font-size:14px; color:#000;padding-left:10px;
+padding-right:10px; padding-bottom:15px; text-align:justify}
+.content ul{padding-left:10px;}
+.content h1{font-size:16px; color:#0d320e;text-align:center; }
+.content h2{font-size:16px; color:#0d320e;text-align:center;}
+.content h3{font-size:14px; color:#0d320e;text-align:center;}
+.content h4{padding-bottom:4px;padding-left:10px;padding-right:10px;color:#03C; font-weight:bold}
+
+.content p{ font-size:14px; color:#000; line-height:1.3em;text-align:justify;padding:5px;}
+.content input{border:#000 1px solid;
+	margin:0px;
+	width:0px;
+	}
+.content select{border:#000 1px solid;margin:0px;}
+
+
+.content a{text-decoration:none; color:#111;}
+.content a:hover{text-decoration:none; color:#030;}
+.content table{margin:0 auto;}
+#onborder td{border:#000 1px solid;}
+#noborder{border:0}
+.content textarea{border:#000 1px solid;
+
+	}
+.table {text-align:left}
+/*---------------------------------------------registeration form----------------------------------------------*/
+.inp-form	{
+	background: url(../images/form_inp.gif) no-repeat;
+	border: none;
+	color: #393939;
+	height: 25px;
+	padding: 6px 6px 0 6px;
+	width: 186px;
+	}
+
+
+.styledselect	{
+	border: 1px solid #acacac;
+	margin-right: 3px;
+	padding: 3px;
+	width: 64px;
+	}
+	
+.form-submit	{
+	background: url(../images/form_submit.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	display: block;
+	height: 30px;
+	margin: 0 4px 0 0;
+	padding: 0;
+	text-indent: -3000px;
+	width: 80px;
+	}
+
+/* raja table properties */
+/* ======================== Table properties ========================*/
+
+table1 {
+    border:10px;
+    border-color:#000000;
+    border-collapse: collapse; 
+    border-spacing: 0;
+}
+td{ border: 1px solid #CCC; height:0;
+    
+}
+
+th { border: 1px solid #CCC; }  
+		
+		
+	
+/* table properties end */
+#news{
+	background:#030;
+	color:#FFF;
+
+
+}
+
+.lupdates{
+   color:blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* ------------------------------------------------------  footer----------------------------------------------------*/
+.footer{
+	background:#030;
+    padding:1px;
+	overflow: hidden;
+    padding: 10px;
+	}
+
+.footer p{	
+	color:#FFF; letter-spacing:0; 
+	line-height:15px}
+	
+.footer a{color:#FFF;}
+
+.footer a:hover{color:#A2F248;}
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+
+
+
+
+
+#contact input,
+#contact textarea{
+	padding: 5px;
+	background: #eaeaea;
+	color: #333;
+	border: 1px  solid #ccc;
+	font-size: 13px;
+	font-family: Helvetica, Arial;
+	line-height: 1.5em;
+	overflow: auto;
+}
+
+#contact input:focus,
+#contact textarea:focus{
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 3px rgba(234,76,136,.4);
+	-moz-box-shadow: 0px 0px 3px rgba(234,76,136,.4);
+	-o-box-shadow: 0px 0px 3px rgba(234,76,136,.4);
+	box-shadow: 0px 0px 3px rgba(234,76,136,.4);
+}
+
+#contact input[type="text"],
+#contact select,
+#contact input[type="password"]
+{
+	overflow: auto;
+	width: 200px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#contact  textarea{
+	width: 90%;
+	height: 230px;
+}
+
+
+#contact input[type="submit"],
+#contact input[type="button"]{
+	margin: 21px 0px;
+
+	width: auto;
+	color: #444;
+	font-size: 11px;
+	background: #eaeaea;
+	padding: 3px 10px;
+	border: 1px solid #ccc;
+	
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.3); 
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.3); 
+	-o-box-shadow: 0px 0px 2px rgba(0,0,0,.3);
+	box-shadow: 0px 0px 2px rgba(0,0,0,.3);
+	
+	 -webkit-transition: all 0.3s ease;
+	 -moz-transition: all 0.3s ease;
+	 -o-transition: all 0.3s ease;
+	 transition: all 0.3s ease;
+	 
+	 cursor: pointer;
+}
+
+#contact input[type="submit"]:hover,
+#contact input[type="button"]:hover{
+	background: #ea4c88;
+	color: #fff;
+}
+
+#contact label{
+	padding-left: 7px;
+	color: #484848;
+}
+
+

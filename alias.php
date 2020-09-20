@@ -1,0 +1,223 @@
+
+<style>
+.profile ul {
+	list-style: disc;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="images/fav.png">
+    <meta charset="utf-8">
+    <title>CTRI Rajahmundry</title>
+    <link type="text/css" href="menu.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="container" style="width:100%">
+        <header> <img src="images/header.jpg" alt="ctri" style="width:100%;height:125px;"></header>
+        <p>
+            <marquee id='news' direction="left" onMouseOver="stop();" onMouseOut="start();" behavior="scroll" scrollamount="5">THIS WEBSITE BELONGS TO CENTRAL TOBACCO RESEARCH INSTITUTE,RAJAHMUNDRY, INDIAN COUNCIL OF AGRICULTURAL RESEARCH, AN AUTONOMOUS ORGANIZATION UNDER THE DEPARTMENT OF AGRICULTURAL RESEARCH AND EDUCATION, MINISTRY OF AGRICULTURE, GOVERNMENT OF INDIA</marquee>
+        </p>
+       <nav>
+    	<ul id="menu">
+	<li><a href="index.php" style="margin-left: 50px">HOME</a></li>
+	<li><a href="#" >FOR FARMERS</a>
+	<ul >
+	<li><a href='for_listOfFarmers.php'>List of Farmers</a></li> 
+	<li><a href='files/success.pdf' target="_blank">Success Stories</a></li>
+	<li><a href='for_origin.php'>Origin</a></li> 
+	<li><a href='for_types.php'>Type Of Tobacco</a></li>
+	<li><a href='for_morphology.php'>Morphology</a></li> 
+	<li><a href='for_soil.php'>Soils & Climate</a></li>	
+	<li><a href='for_nursery.php'>Nursery</a></li>
+	<li><a href='files/agronomy.pdf' target="_blank">Agronomic practices</a></li>
+	<li><a href='for_curing.php'>Curing & Grading</a></li>
+	<li><a href='for_controlPests.php'>Control of Pests</a></li>
+	<li><a href='for_controlDisease.php'>Control of Diseases</a></li>
+	<li><a href='for_quality.php'>Quality Parameter </a></li>
+	<li><a href='for_tobaccoEconomy.php'>Tobacco in Indian Economy</a></li>
+	</ul></li>
+
+<li><a href="#">&nbsp; RESEARCH</a> 
+	<ul>
+	<li><a href='files/RESEARCH.pdf'>Research achievements</a></li>
+	<li><a href='files/projects1.pdf'>On-going projects</a></li>
+	<li><a href='home_research_external.php'>Extenllay Funded Projects</a></li>
+	<li ><a href='files/technology.pdf'>Technologies</a></li>
+        <li ><a href='files/varieties.pdf'>Varieties</a></li>
+        <li ><a href='files/colobration.pdf'>Collaborations</a></li>
+        <li ><a href='home_research_publications.php'>Publications</a></li>
+	<li ><a href='files/ainrp.pdf'>AINP on Tobacco</a></li>
+        <li ><a href='files/award.pdf'>Award Winners</a></li>
+        <li ><a href='home_research_patents.php'>Patents</a></li>
+
+       </ul></li>
+
+	<li><a href="#">ANNOUNCEMENTS</a>
+	<ul>
+	<li><a href='press/index.html'>Press Release</a></li>
+	<li><a href='circular.php'>Circulars</a></li>
+	<li><a href='employment.php'>Employment </a></li>
+	<li><a href='announcement_ria.php'>Right to Information Act</a></li>
+	</ul></li>
+
+<li><a href="#">DOWNLOADS</a>
+	<ul>
+	<li><a href='download_tenders.php'>TENDERS/QUOTATIONS</a></li>
+	<li><a href='application_forms.php'>APPLICATION FORMS</a></li>
+	<li><a href='download_doccument.php'>DOCUMENTS</a></li>
+	<li><a href='gallery/index.html'>GALLERY</a></li>
+	</ul></li>
+
+	<li ><a href="related_sites.php">RELATED SITES</a></li>        
+
+	    <li ><a href="faq1.php">FAQ's</a></li>
+		
+      
+
+	<li><a href="#">&nbsp;  STAFF</a>
+	<ul>
+	<li><a href='staff_director.php'>DIRECTOR</a></li>
+	<li><a href='staff_scientist.php'>SCIENTISTS</a></li>
+	<li><a href='staff_technical.php'>TECHNICAL</a></li>
+	<li><a href='staff_admin.php'>ADMINISTRATION</a></li>
+	<li ><a href="staff_support.php">SKILLED SUPPORTING STAFF</a></li>
+	</ul></li> 
+	
+	<li><a href='feedback.php' target="_blank">FEEDBACK</a></li>
+
+	<li><a href='help.php' target="_blank">HELP</a></li> 
+
+    	<li class="last"><a href="contact.php">CONTACT</a></li>	
+	
+	<li style="float: right;font-size: 20px;font-weight: bold;margin-right: auto;">
+	<div >		
+		<a href="#" id="incfont" style="font-size: 15px;">A+</a>
+		<a href="#" id="norfont" style="font-size: 15px;">A</a>
+		<a href="#" id="decfont" style="font-size: 15px;">A-</a>
+	
+	</div>	</li>
+
+	</ul>
+	</nav>
+		<link type="text/css" href="css/ctri.css" rel="stylesheet">
+        <div class="content">
+        </body>
+        </html>
+ 
+
+		<table border='0' width='900' cellspacing='20' class='profile'>
+
+		
+
+			<tr><td rowspan='3' valign='top' width='150' align='left'><img src='uploads/staff/306.jpeg' height='140' width='115'/></td>
+
+				<td valign='top' align='left' colspan='2'><b>Md. Elias</b><br/>M.L.I.S., M.A.(Hindi), M.Com.</td>
+
+			</tr>
+
+			<tr><td></td><td></td></tr>
+
+			<tr><td valign='top' align='left'>Technical Officer<b></b></td><td><b>Contact Address: </b><br/>1-38/3, Jyothi Convent Street, Katheru, Rajahmundry. <br/>
+
+				<img src='images/phoneicon.gif'/>Phone (Mobile):&nbsp;9393931199<br/>
+
+				<img src='images/emailicon.gif'/>Email Address:&nbsp;eliasctri@rediffmail.com<br/>
+
+				</td></tr>
+
+			<tr><td  valign='top' width='150' align='left'><b>Employment Record</b></td>
+
+			<td colspan='2'><ul>
+	<li>
+		LDC 1996 - 2006</li>
+	<li>
+		Technical Assistant 2006 - 201</li>
+	<li>
+		Senior Technical Assistant 2011 - till date</li>
+</ul>
+</td></tr>
+
+			<tr><td  valign='top' width='150' align='left'><b>Area of Interest</b></td>
+
+			<td colspan='2'></td></tr>
+
+			<tr><td  valign='top' width='150' align='left'><b>Publications</b></td>
+
+			<td colspan='2'><ul>
+	<li style="text-align: justify;">
+		<strong>Elias,</strong> <strong>Md. </strong>and C.V.K. Reddy. 2014. CTRI Telephone Directory 2014. CTRI, Rajahmundry. pp.57.</li>
+	<li style="text-align: justify;">
+		<strong>Elias,</strong> <strong>Md. </strong>and M. Anuradha. 2013. 37 years of Tobacco Research E-Journal (1975-2011) &ndash; DVD. CTRI, Rajahmundry. &nbsp;</li>
+	<li style="text-align: justify;">
+		<strong>Elias,</strong> <strong>Md. </strong>and M. Anuradha. 2013. List of Periodicals. CTRI, Rajahmundry. pp.14.</li>
+	<li style="text-align: justify;">
+		<strong>Elias,</strong> <strong>Md. </strong>and C.V.K. Reddy. 2012. CTRI Telephone Directory. CTRI, Rajahmundry. pp.59.</li>
+	<li style="text-align: justify;">
+		Reddy, C.V.K. and <strong>Md. Elias</strong>. Golden Jubilee Souvenir 1959-2009. CTRI Employees Credit Society Ltd., Rajahmundry. pp.40.</li>
+	<li style="text-align: justify;">
+		<strong>Elias,</strong> <strong>Md. </strong>and N. Syam Prasad. 2009. CTRI Telephone Directory. CTRI, Rajahmundry. pp.50.</li>
+	<li style="text-align: justify;">
+		<strong>Elias,</strong> <strong>Md. </strong>and Y.V. Suryanarayana. 2007. CTRI Telephone Directory.&nbsp; CTRI, Rajahmundry. pp.44.</li>
+	<li style="text-align: justify;">
+		Suryanarayana, Y.V. and <strong>Md. Elias</strong>. 2007. E-Publications of CTRI - CD. CTRI, Rajahmundry.</li>
+	<li style="text-align: justify;">
+		Suryanarayana, Y.V. and <strong>Md. Elias</strong>. 2003. Distribution of tobacco literature in different CD-ROM databases. Paper presented at National Symposium on Tobacco held at ITA, Guntur during 23-25 January, 2003.</li>
+	<li style="text-align: justify;">
+		Appa Rao, M., <strong>Md. Elias</strong> and Y.V. Suryanarayana. Newspaper Clippings (Quarterly), Jan.-Mar., Apr-June, July-Sep., Oct.-Dec., 2002 and Jan.-Mar., 2003. CTRI, Rajahmundry.</li>
+	<li style="text-align: justify;">
+		Syam Prasad, N., <strong>Md. Elias</strong> and Y.V. Suryanarayana. 2001 &amp; 2002. New Additions (Yearly). CTRI, Rajahmundry.</li>
+	<li style="text-align: justify;">
+		Paul, V.A., <strong>Md. Elias</strong> and Y.V. Suryanarayana. 2001 &amp; 2002. Current Periodicals. CTRI, Rajahmundry.</li>
+	<li style="text-align: justify;">
+		Suryanarayana, Y.V., M. Ramam and <strong>Md. Elias</strong>. 1998. CTRI &amp; its Research Stations Publications. CTRI, Rajahmundry.&nbsp; pp.107.</li>
+</ul>
+</td></tr>
+
+			<tr><td  valign='top' width='150' align='left'><b>Awards/Honors</b></td>
+
+			<td colspan='2'><ul>
+	<li style="text-align: justify;">
+		<strong>Best Administrative Worker Award</strong> for the year 2002. CTRI, Rajahmundry.</li>
+	<li style="text-align: justify;">
+		<strong>Best Poster</strong> <strong>Presentation Award (3<sup>rd</sup> Prize), 2014. </strong>&quot;Present practices and future strategies of CTRI Library in Digital Era&quot; by <strong>Md. Elias</strong> and M. Anuradha. National Conference on &#39;Agricultural Information Management in Digital Era&#39; held at IGKV, Raipur during 4-5 February, 2014.</li>
+</ul>
+</td></tr>
+
+			
+
+		</table> 
+</div>
+<div class="footer">
+ <p>
+ 	<span class="right">
+ 	<a href="disclaimer.php">DISCLAIMER</a> | 
+    <a href="webpolicy.php">WEB POLICY</a> | 
+    <a href="privacy.php">PRIVACY POLICY</a></span>
+
+<span class="left">&copy; <?php echo date("Y");?>  Reserved to Central Tobacco Research Institute.</span></p>
+
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    $(function() {
+		if ($.browser.msie && $.browser.version.substr(0,1)<7)
+		{
+		$('li').has('ul').mouseover(function(){
+			$(this).children('ul').css('visibility','visible');
+			}).mouseout(function(){
+			$(this).children('ul').css('visibility','hidden');
+			})
+		}    
+    });          
+</script>
+<script type="text/javascript" src="js/ctri.js"></script>
+
+</body>
+</html>
